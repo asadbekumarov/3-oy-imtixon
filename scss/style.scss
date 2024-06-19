@@ -101,7 +101,6 @@ position: fixed;
 
 .dark * {
     color: #fff !important;
-
     h1 {
         color: #fff !important;
     }
@@ -186,7 +185,6 @@ position: fixed;
 
 #light-dark {
     background: transparent;
-    border: none;
     cursor: pointer !important;
     padding: 10px;
     border-radius: 50%;
@@ -203,6 +201,7 @@ position: fixed;
     svg {
         fill: #fff !important;
     }
+    border: 2px solid #FFF;
 }
 // LOADING
 .loader {
