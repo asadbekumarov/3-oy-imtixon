@@ -255,10 +255,12 @@ position: fixed;
     transition: 0.3s linear;
     border: none;
     outline: none;
+    margin-bottom: -200px;
     background-color: #000 !important;
 }
 #backtop.backtop-show {
     opacity: 1;
+    margin-bottom: 0;
 
     svg {
         fill: #fff !important;
